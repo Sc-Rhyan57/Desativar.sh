@@ -57,6 +57,7 @@ pacotes_cache=(
     "com.android.calllogbackup"
     "com.android.dreams.basic"
     "com.android.dreams.phototable"
+    "com.google.android.contacts"
     "com.android.deskclock"
     "com.android.wallpaper.livepicker"
     "com.android.providers.partnerbookmarks"
