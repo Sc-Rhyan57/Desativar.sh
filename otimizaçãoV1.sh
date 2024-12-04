@@ -22,7 +22,7 @@ limpar_cache() {
     pm clear "$1" && log_sucesso "Cache limpo para $1 [$2]" || log_erro "Falha ao limpar cache para $1"
 }
 
-pacotes_cache=(
+pacotes_cache=
     "com.google.android.gms"
     "com.google.pixeltips"
     "com.google.playground"
@@ -61,7 +61,7 @@ pacotes_cache=(
     "com.android.deskclock"
     "com.android.wallpaper.livepicker"
     "com.android.providers.partnerbookmarks"
-)
+
 
 for i in "${!pacotes_cache[@]}"; do
     limpar_cache "${pacotes_cache[i]}" "$((i+1))%"
