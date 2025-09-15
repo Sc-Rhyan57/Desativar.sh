@@ -59,7 +59,6 @@ pacotes_cache=
     "com.android.dreams.phototable"
     "com.google.android.contacts"
     "com.android.deskclock"
-    "com.android.wallpaper.livepicker"
     "com.android.providers.partnerbookmarks"
 
 
@@ -120,7 +119,6 @@ pacotes_desativar=(
     "com.android.dreams.basic"
     "com.android.dreams.phototable"
     "com.android.deskclock"
-    "com.android.wallpaper.livepicker"
     "com.android.providers.partnerbookmarks"
     "com.samsung.android.kidsinstaller"
 )
